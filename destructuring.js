@@ -11,7 +11,10 @@ let food={
 let {morning,lunch,dinner}=food
 console.log(morning,lunch,dinner) // [ 'eggs', 'toast', 'coffee' ] [ 'sandwich', 'soda', 'fruit' ] [ 'steak', 'potatoes', 'wine' ]
 
-let add=(a+b) =>{
-    return a+b
+function addNumbers({ x, y }) {
+    return x + y;
 }
+let x=5
+let y=10
+console.log(addNumbers({ x, y })) // 15
 
